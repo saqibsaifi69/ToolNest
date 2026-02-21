@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToolNest</title>
+    <link rel="stylesheet" href="CSS/global.css">
+    <link rel="stylesheet" href="CSS/landing.css">
+    <link rel="icon" type="image/png" href="./Assets/Icons/wrench.png">
+    <meta name="description" content="ToolNest provides free online web tools like converters, 
+    calculators, and utilities to make your work easier.">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="nav-logo" id="logo">Tool<span>Nest</span></div>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#tools">Tools</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-right">
+            <button id="themeToggle" class="toggle-btn">☾</button>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+
+            <h1>Tool<span>Nest</span></h1>
+            <p>Toolnest is a curated collection of powerful, free-to-use web tools designed to simplify your digital
+                workflow. Whether you're a developer, a designer, or a student, our mission is to provide you with the
+                most essential utilities in one seamless and accessible 'nest.'</p>
+            <!-- <button class="btn-main">Explore Tools</button> -->
+        </div>
+        <div class="hero-image">
+            <div class="image-bg-shape">
+                <img src="./Assets/Images/image.png" alt="profile" />
+            </div>
+        </div>
+    </section>
+
+    <!-- tools -->
+    <section id="tools">
+        <div class="tcontainer">
+            <h1>Our Tools</h1>
+            <div class="tools-container">
+                <!-- Tool 1 -->
+                <div class="skill" data-percent="65">
+                    <div class="outher">
+                        <div class="inner">
+                            <div class="number">65%</div>
+                        </div>
+                    </div>
+                    <button onclick="openTool('Tools/BackgroundRemove/index.html')">
+                        <img src="Assets/Images/tools/erase.png"> Background Remove
+                    </button>
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+                        <defs>
+                            <linearGradient id="GradientColor1">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="100" cy="100" r="88" stroke-linecap="round" />
+                    </svg>
+                </div>
+
+                <!-- Tool 2 -->
+                <div class="skill" data-percent="45">
+                    <div class="outher">
+                        <div class="inner">
+                            <div class="number">45%</div>
+                        </div>
+                    </div>
+                    <button onclick="openTool('Tools/TexttoSpeech/index.html')">
+                        <img src="./Assets/Images/tools/speech-to-text.png">Text to Speech</button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+                        <defs>
+                            <linearGradient id="GradientColor2">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="100" cy="100" r="88" stroke-linecap="round" />
+                    </svg>
+                </div>
+
+                <!-- Tool 3 -->
+                <div class="skill" data-percent="80">
+                    <div class="outher">
+                        <div class="inner">
+                            <div class="number">80%</div>
+                        </div>
+                    </div>
+                    <button onclick="openTool('Tools/Qrcode/index.html')">
+                        <img src="./Assets/Images/tools/quick-response-code.png">QR Code Genrator</button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+                        <defs>
+                            <linearGradient id="GradientColor3">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="100" cy="100" r="88" stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="about">
+        <div class="container">
+
+            <div class="about-header">
+                <h2>About ToolNest</h2>
+                <p>
+                    ToolNest provides simple, fast, and free web tools designed to
+                    improve productivity and simplify daily tasks.
+                </p>
+            </div>
+
+            <div class="cards">
+
+                <div class="about-card">
+                    <h3>Our Mission</h3>
+                    <p>
+                        To build simple digital tools that save time and make
+                        everyday tasks easier.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <h3>Our Vision</h3>
+                    <p>
+                        To create a reliable hub of essential utilities that
+                        anyone can use freely.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <h3>Why ToolNest?</h3>
+                    <p>
+                        Because productivity should be simple, accessible,
+                        and distraction free.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- contact -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p class="subtext">
+                Have a question or suggestion? We'd love to hear from you.
+            </p>
+            <div class="cards">
+
+                <div class="contact-card">
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=KnqNxlcMJQNbCJgqxgCkfvBszFxHcbkhvBpkdtwwggFHLLDQQWJMdfZQWFtFbDdzXXgNTNHbvRppBnfDjwKsJBvMQLVxdfGsFxhPdpKsMnvNqdGPQqQjPLpgMGkkstnxhSsckTttBxscKTXwtsQzp"
+                        target="_blank" class="contact-link">
+                        <img src="./Assets/Icons/gmail.png" alt="Email">
+                        <span>muhammadsaqibsaifi11@gmail.com</span>
+                    </a>
+                </div>
+
+
+                <div class="contact-card">
+                    <a href="tel:+923001234567" target="_blank" class="contact-link">
+                        <img src="./Assets/Icons/phone-call.png" alt="phone">
+                        <span>+92313-1236525</span>
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <a href="https://www.instagram.com/saifi_you_know" target="_blank" class="contact-link">
+                        <img src="./Assets/Icons/instagram.png" alt="Instagram">
+                        <span>@saifi_you_know</span>
+                    </a>
+                </div>
+
+
+                <div class="contact-card">
+                    <a href="https://www.facebook.com/saqib.saifi.908347" target="_blank" class="contact-link">
+                        <img src="./Assets/Icons/facebook.png" alt="facebook">
+                        <span>M Saqib Saifi</span>
+                    </a>
+                </div>
+
+
+                <div class="contact-card">
+                    <a href="https://www.linkedin.com/in/m-saqib-saifi-472a962a4" target="_blank" class="contact-link">
+                        <img src="./Assets/Icons/linkedin.png" alt="facebook">
+                        <span>M Saqib Saifi</span>
+                    </a>
+                </div>
+
+
+                <div class="contact-card">
+                    <a href="https://github.com/saqibsaifi69" target="_blank" class="contact-link">
+                        <img src="./Assets/Icons/github-sign.png" alt="facebook">
+                        <span>Muhammad Saqib Saifi</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 ToolNest. All rights reserved.</p>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

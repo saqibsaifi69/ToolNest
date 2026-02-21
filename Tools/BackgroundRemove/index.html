@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Background Remover</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div onclick="goback()" class="back"><img src="/Assets/Icons/close.png"></div>
+    
+    <h2 class="title">Remove Image Background</h2>
+    <div class="box">
+    <div class="input-box">
+        <input type="file" id="imageInput" accept="image/*">
+        <img src="refresh.png" id="refreshbtn">
+    </div>
+
+    <button onclick="removeBackground()">Remove Background</button>
+
+    <div class="preview">
+        <img id="resultImage">
+    </div>
+
+    <a id="downloadBtn" download="image.png">Download PNG</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

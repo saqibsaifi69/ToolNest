@@ -1,0 +1,46 @@
+
+body {
+    background-color: #dde4e29a;
+    font-family: 'Inter', system-ui, sans-serif;
+    transition: background 0.3s, color 0.3s;
+
+}
+
+section {
+    height: 90vh;
+    padding: 80px 0px;
+}
+
+.skill button {
+    margin-top: 20px;
+    /* Push below the circle */
+    width: 160px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    /* space between icon and text */
+    padding: 10px 20px;
+    border: none;
+    background-color: #3dc0c0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 14px;
+}
+
+button img {
+    width: 18px;
+    margin-right: 10px;
+}
+.toggle-btn {
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #4e4d4d;
+}
+
+
+
