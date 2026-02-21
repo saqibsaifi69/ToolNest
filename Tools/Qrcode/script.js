@@ -62,5 +62,5 @@ function downloadQR() {
 
 
 function goback() {
-    window.location.href = "../../main.html#tools";
+    window.location.href = "../../index.html#tools";
 }

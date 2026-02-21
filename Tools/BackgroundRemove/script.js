@@ -54,6 +54,6 @@ reset.addEventListener("click",()=>{
 //      window.location.href = "TOOLNEST/index.html";
 // })
 function goback() {
-    window.location.href = "../../main.html#tools";
+    window.location.href = "../../index.html#tools";
     // window.location.href = "/ToolNest/index.html";
 }
